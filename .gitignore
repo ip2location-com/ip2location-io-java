@@ -4,13 +4,14 @@ target/
 !**/src/test/**/target/
 
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
+# Ignore the entire IntelliJ settings directory
+.idea/
+
+# Ignore individual module files (sometimes generated in the root)
 *.iml
+*.iws
 *.ipr
+
 
 ### Eclipse ###
 .apt_generated
